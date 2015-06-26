@@ -1,7 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 // As a Product Owner I want to ensure Pages on the site meet expected standards
 
@@ -38,7 +37,7 @@ public class PageStandards {
         //Verify Results of Page Validated
         driver.findElement(By.id("congrats"));
         System.out.println((driver.getCurrentUrl()));
-
+        System.out.println("Test completed!! - please view link above for result:");
 
     }
 }

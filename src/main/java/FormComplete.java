@@ -21,9 +21,9 @@ public class FormComplete {
         System.out.println(driver.getCurrentUrl());
 
         //Click in Email Field & Enter value
-        driver.findElement(By.id("email")).sendKeys("Test29@mailinator.com");
+        driver.findElement(By.id("email")).sendKeys("Test30@mailinator.com");
         //Click in Confirm Email Field & Enter value
-        driver.findElement(By.id("emailConfirmation")).sendKeys("Test29@mailinator.com");
+        driver.findElement(By.id("emailConfirmation")).sendKeys("Test30@mailinator.com");
         //Click in Password Field & Enter value
         driver.findElement(By.id("password")).sendKeys("Qwertyuiop1");
         //Click in Confirm Password Field & Enter value
