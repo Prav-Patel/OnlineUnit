@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 // As a user I want to successfully sign into the w2.hronline.co.uk/trial website
@@ -7,6 +8,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class FormComplete {
 
     public static void main(String[] args) throws InterruptedException {
+
+//        //Create Google Chrome Browser
+//        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+//        WebDriver driver = new ChromeDriver();
 
         //Create FireFox Browser
         WebDriver driver = new FirefoxDriver();
@@ -16,9 +21,9 @@ public class FormComplete {
         System.out.println(driver.getCurrentUrl());
 
         //Click in Email Field & Enter value
-        driver.findElement(By.id("email")).sendKeys("Test26@mailinator.com");
+        driver.findElement(By.id("email")).sendKeys("Test29@mailinator.com");
         //Click in Confirm Email Field & Enter value
-        driver.findElement(By.id("emailConfirmation")).sendKeys("Test26@mailinator.com");
+        driver.findElement(By.id("emailConfirmation")).sendKeys("Test29@mailinator.com");
         //Click in Password Field & Enter value
         driver.findElement(By.id("password")).sendKeys("Qwertyuiop1");
         //Click in Confirm Password Field & Enter value
